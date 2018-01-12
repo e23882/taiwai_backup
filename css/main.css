@@ -1,0 +1,179 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+ins {
+  text-decoration: none;
+}
+
+del {
+  text-decoration: line-through;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: "Microsoft YaHei",sans-serif;
+}
+
+/*====   code 外觀   ====*/
+.prettyprint {
+  overflow-y: auto;
+  background: #272822;
+}
+pre.prettyprint {
+  padding: 15px 5px 15px 25px;
+  border: 1px solid #888;
+      line-height: 20px;
+  min-width: 698px;
+  box-sizing: border-box;    
+}
+.prettyprint .pln, .prettyprint .tag, .prettyprint .typ { color: #66cee2;}
+.prettyprint .pun { color: #c6c6c6;}
+.prettyprint .kwd, .prettyprint .dec, .prettyprint .atn { color: #F93250;}
+.prettyprint .com { color: #6c6c6c;}
+.prettyprint .str, .prettyprint .atv, .prettyprint .lit { color: #89b12a;}
+
+code {
+  padding: 2px 4px;
+  word-break: break-all;
+  color: #EDEDED;
+  background: #d9d9d9;
+  border-radius: 10px;
+  font-size: 13px;
+}
+
+/*====   code 外觀end   ====*/
+
+/*====   mix 外觀   ====*/
+
+.mix {display: inline-block;}
+
+#Container .mix{
+  display: none;
+}
+.mixmenu {
+  text-align: center;
+      padding-top: 20px;
+}
+    
+.mixmenu ul{
+  display: inline;
+}
+
+.mixmenu li{
+  display: inline-block;
+  line-height: 32px;
+  font-size: 15px;
+  padding: 0px 0px 2px 0px;
+  margin: 20px 20px 0 10px;
+
+  font-weight: bold;
+}
+
+.mixmenu li:hover a, .selected a {
+  color:#FCFCFC;  
+}
+
+.mixmenu li:hover, .selected {
+border-bottom:2px #FCFCFC solid;
+}
+
+/*====   mix 外觀end   ====*/
+a {
+  color: #EDEDED;
+  text-decoration: none;
+  word-wrap: break-word;
+}
+.content img {
+  max-width: 700px;
+  max-height: 500px;
+}
+
+.warpper {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 700px;
+}
+.warpper #header {
+  height: 80px;
+}
+.warpper #main h1 {
+  color: #666;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 400;
+}
+.warpper #main .post-meta {
+  text-align: center;
+}
+.warpper #main .post-time {
+  font-size: 12px;
+  color: #999;
+  text-align: center;
+}
+.warpper #main .content {
+  padding: 30px 0 0 0;
+}
+.warpper #main .content h2 {
+  font-size: 18px;
+  line-height: 36px;
+  color: #EDEDED;
+}
+.warpper #main .content p {
+  font-size: 13px;
+  line-height: 26px;
+  color: #555;
+}
+.warpper #main .content .linesp {
+  height: 20px;
+}
+.warpper #main .content .linesp-big {
+  height: 60px;
+}
+.warpper #footer {
+  height: 100px;
+}
